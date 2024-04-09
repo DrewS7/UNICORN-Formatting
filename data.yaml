@@ -1,0 +1,14 @@
+train: ../train/images 
+val: ../valid/images  
+#test: ../test/images
+
+nc: 21
+#names: ['Fixed-wing Aircraft', 'Small Aircraft', 'Cargo Plane', 'Helicopter', 'Passenger Vehicle', 'Small Car', 'Bus', 'Pickup Truck', 'Utility Truck', 'Truck', 'Cargo Truck', 'Truck w/Box', 'Truck Tractor', 'Trailer', 'Truck w/Flatbed', 'Truck w/Liquid', 'Crane Truck', 'Railway Vehicle', 'Passenger Car', 'Cargo Car', 'Flat Car', 'Tank car', 'Locomotive', 'Maritime Vessel', 'Motorboat', 'Sailboat', 'Tugboat', 'Barge', 'Fishing Vessel', 'Ferry', 'Yacht', 'Container Ship', 'Oil Tanker', 'Engineering Vehicle', 'Tower crane', 'Container Crane', 'Reach Stacker', 'Straddle Carrier', 'Mobile Crane', 'Dump Truck', 'Haul Truck', 'Scraper/Tractor', 'Front loader/Bulldozer', 'Excavator', 'Cement Mixer', 'Ground Grader', 'Hut/Tent', 'Shed', 'Building', 'Aircraft Hangar', 'Damaged Building', 'Facility', 'Construction Site', 'Vehicle Lot', 'Helipad', 'Storage Tank', 'Shipping container lot', 'Shipping Container', 'Pylon', 'Tower']
+names: ['SUV', 'SUV w/trailer', 'bicycle', 'boat', 'box truck', 'bus', 'dismount', 'dump truck', 'flatbed truck', 'flatbed truck w/ trailer', 'motorcycle', 'other', 'pickup truck', 'pickup truck w/trailer', 'plane', 'sedan', 'sedan w/trailer', 'semi', 'semi w/trailer', 'van', 'van w/trailer']
+
+roboflow:
+  workspace: my-workspace-mk4yr
+  project: xview-jkrrp
+  version: 4604
+  license: Public Domain
+  url: https://universe.roboflow.com/my-workspace-mk4yr/xview-jkrrp/dataset/4604
